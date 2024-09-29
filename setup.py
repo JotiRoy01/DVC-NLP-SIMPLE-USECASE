@@ -17,7 +17,7 @@ setup(
     description="A small package for DVC",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{JotiRoy01}/{DVC-NLP-SIMPLE-USECASE}",
+    url=f"https://github.com/JotiRoy01/DVC-NLP-SIMPLE-USECASE",
     author_email="jotiroygit@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
