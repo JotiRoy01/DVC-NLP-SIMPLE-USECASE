@@ -10,9 +10,11 @@ DVC project template
 ### STEP 03- Create a conda environment after opening the repository in VSCODE
 
 ```bash
-conda create --prefix ./env python=3.7 -y
+conda create --prefix ./env python=3.10 -y
 ```
-
+```bash
+source activate
+```
 ```bash
 conda activate ./env
 ```
@@ -25,6 +27,8 @@ source activate ./env
 ```bash
 pip install -r requirements.txt
 ```
+## Reference repository
+[reference repo](https://github.com/JotiRoy01/DVC-TEMPLATE.git)
 
 ### STEP 05- initialize the dvc project
 ```bash
