@@ -8,4 +8,4 @@ Scipy
 scikit-learn
 lxml
 ### local packages -
--e . --config-settings editable_mode=strict # << uncomment this to install from setup.py
+-e . #--config-settings editable_mode=strict # << uncomment this to install from setup.py

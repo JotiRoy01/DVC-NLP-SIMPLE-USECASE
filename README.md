@@ -30,6 +30,14 @@ pip install -r requirements.txt
 ## Reference repository
 [reference repo](https://github.com/JotiRoy01/DVC-TEMPLATE.git)
 
+## Move data from previous directory to currunt directory and create ./data folder simultenously
+```bash
+mv ../NLP_data/ ./data
+```
+## Create stage_01
+```bash
+cp src/stage_00_template.py src/stage_01_prepare.py
+```
 ### STEP 05- initialize the dvc project
 ```bash
 dvc init
